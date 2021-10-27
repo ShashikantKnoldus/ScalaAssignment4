@@ -21,9 +21,4 @@ class OperationsIntTree {
   }
 
 }
-object  shashi extends App{
-  val obj= new OperationsIntTree
-  val a=obj.insert(obj.insert(EmptyTree,5),10)
-  val b=obj.contains(a,50)
-  println(a)
-}
+
